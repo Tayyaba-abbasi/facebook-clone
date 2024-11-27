@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 export default function page() {
@@ -9,7 +8,7 @@ export default function page() {
 
       {/* Left side */}
       <div className="text-3xl w-full md:w-1/2 px-5 mb-5 md:mb-0">
-        <Image width={300} height={100} src="/pictures/facebook.svg" alt="Facebook Logo" />
+        <img width={300} height={100} src="/pictures/facebook.svg" alt="Facebook Logo" />
         <p className="ml-8 -mt-3">Facebook helps you connect and share with the people in your life.</p>
       </div>
 
